@@ -1,27 +1,28 @@
 {
   "@context" : {
-    "RBCub6j3arGRcILfvAUxXOk" : {
-      "@id" : "http://webprotege.stanford.edu/RBCub6j3arGRcILfvAUxXOk"
-    },
-    "RBjUbnUXcVIn1RpQ8DS8m5Y" : {
-      "@id" : "http://webprotege.stanford.edu/RBjUbnUXcVIn1RpQ8DS8m5Y",
+    "connectedSensor" : {
+      "@id" : "http://webprotege.stanford.edu/connectedSensor",
       "@type" : "@id"
-    },
-    "R92Py4iSAQmIMho8kmSSjGu" : {
-      "@id" : "http://webprotege.stanford.edu/R92Py4iSAQmIMho8kmSSjGu"
     },
     "actsUpon" : {
       "@id" : "https://w3id.org/saref#actsUpon",
       "@type" : "@id"
     },
+    "Address" : {
+      "@id" : "http://webprotege.stanford.edu/Address"
+    },
     "Switch" : {
       "@id" : "https://w3id.org/saref#Switch"
     },
-    "R8QPBXHMQKgoyvwW0Wgo27p" : {
-      "@id" : "http://webprotege.stanford.edu/R8QPBXHMQKgoyvwW0Wgo27p"
+    "hasEmail" : {
+      "@id" : "http://webprotege.stanford.edu/hasEmail"
     },
-    "UnitOfMeasure" : {
-      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    "inBuilding" : {
+      "@id" : "http://webprotege.stanford.edu/inBuilding",
+      "@type" : "@id"
+    },
+    "secondaryCurrent" : {
+      "@id" : "http://webprotege.stanford.edu/secondaryCurrent"
     },
     "hasManufacturer" : {
       "@id" : "https://w3id.org/saref#hasManufacturer",
@@ -34,18 +35,25 @@
     "NotifyCommand" : {
       "@id" : "https://w3id.org/saref#NotifyCommand"
     },
-    "RDE6cVxTumawuTFWQH5VCIt" : {
-      "@id" : "http://webprotege.stanford.edu/RDE6cVxTumawuTFWQH5VCIt"
+    "RVK" : {
+      "@id" : "http://webprotege.stanford.edu/RVK"
     },
     "Meter" : {
       "@id" : "https://w3id.org/saref#Meter"
+    },
+    "supportedProtocol" : {
+      "@id" : "http://webprotege.stanford.edu/supportedProtocol"
+    },
+    "Burner" : {
+      "@id" : "http://webprotege.stanford.edu/Burner"
     },
     "isControlledByDevice" : {
       "@id" : "https://w3id.org/saref#isControlledByDevice",
       "@type" : "@id"
     },
-    "RBQxJveApvTRBFosMsPMEwV" : {
-      "@id" : "http://webprotege.stanford.edu/RBQxJveApvTRBFosMsPMEwV"
+    "relatedSensor" : {
+      "@id" : "http://webprotege.stanford.edu/relatedSensor",
+      "@type" : "@id"
     },
     "EnergyUnit" : {
       "@id" : "https://w3id.org/saref#EnergyUnit"
@@ -53,8 +61,8 @@
     "Storage" : {
       "@id" : "https://w3id.org/saref#Storage"
     },
-    "R7ZX8WQXUGxp9vhiILPtj97" : {
-      "@id" : "http://webprotege.stanford.edu/R7ZX8WQXUGxp9vhiILPtj97"
+    "TubeBundle" : {
+      "@id" : "http://webprotege.stanford.edu/TubeBundle"
     },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
@@ -65,8 +73,14 @@
     "created" : {
       "@id" : "http://purl.org/dc/terms/created"
     },
-    "RB03ZKnWypB1bdhZKSud2oc" : {
-      "@id" : "http://webprotege.stanford.edu/RB03ZKnWypB1bdhZKSud2oc"
+    "Filter" : {
+      "@id" : "http://webprotege.stanford.edu/Filter"
+    },
+    "Lamp" : {
+      "@id" : "http://webprotege.stanford.edu/Lamp"
+    },
+    "td" : {
+      "@id" : "http://webprotege.stanford.edu/td"
     },
     "Humidity" : {
       "@id" : "https://w3id.org/saref#Humidity"
@@ -84,21 +98,8 @@
     "MeteringFunction" : {
       "@id" : "https://w3id.org/saref#MeteringFunction"
     },
-    "R9PDn4Aa84f1Umys0v1riwj" : {
-      "@id" : "http://webprotege.stanford.edu/R9PDn4Aa84f1Umys0v1riwj"
-    },
-    "R9wJqHrUV5pUhVzAcYtT0VV" : {
-      "@id" : "http://webprotege.stanford.edu/R9wJqHrUV5pUhVzAcYtT0VV"
-    },
-    "RCNjAo2i3RVhdHFLmNIdg7e" : {
-      "@id" : "http://webprotege.stanford.edu/RCNjAo2i3RVhdHFLmNIdg7e",
-      "@type" : "@id"
-    },
-    "R9681INrrpTEwaZTt2Zlyp6" : {
-      "@id" : "http://webprotege.stanford.edu/R9681INrrpTEwaZTt2Zlyp6"
-    },
-    "RCUXiAiW1f8PVPPnDTQ1hFg" : {
-      "@id" : "http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"
+    "ElectronicFlowStorageDevice" : {
+      "@id" : "http://webprotege.stanford.edu/ElectronicFlowStorageDevice"
     },
     "hasThresholdMeasurement" : {
       "@id" : "https://w3id.org/saref#hasThresholdMeasurement",
@@ -108,18 +109,14 @@
       "@id" : "https://w3id.org/saref#accomplishes",
       "@type" : "@id"
     },
-    "R8S6TBfioEZADWNH5HvZcxL" : {
-      "@id" : "http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL"
-    },
-    "RLCNYMTcGC2itclf7a2gUm" : {
-      "@id" : "http://webprotege.stanford.edu/RLCNYMTcGC2itclf7a2gUm"
+    "Humidifier" : {
+      "@id" : "http://webprotege.stanford.edu/Humidifier"
     },
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued"
     },
-    "R9WFufxotu4KAAzKLx4qc2U" : {
-      "@id" : "http://webprotege.stanford.edu/R9WFufxotu4KAAzKLx4qc2U",
-      "@type" : "@id"
+    "Volume" : {
+      "@id" : "http://webprotege.stanford.edu/Volume"
     },
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
@@ -127,17 +124,17 @@
     "topDataProperty" : {
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
+    "logicalNode" : {
+      "@id" : "http://webprotege.stanford.edu/logicalNode"
+    },
     "CloseCommand" : {
       "@id" : "https://w3id.org/saref#CloseCommand"
     },
-    "RCWr6DhyJe5vHwsW6w65ef3" : {
-      "@id" : "http://webprotege.stanford.edu/RCWr6DhyJe5vHwsW6w65ef3"
+    "voltageLevel" : {
+      "@id" : "http://webprotege.stanford.edu/voltageLevel"
     },
-    "TemporalUnit" : {
-      "@id" : "http://www.w3.org/2006/time#TemporalUnit"
-    },
-    "RDafdYghsCmPrJjKIXG0nuP" : {
-      "@id" : "http://webprotege.stanford.edu/RDafdYghsCmPrJjKIXG0nuP"
+    "Room" : {
+      "@id" : "http://webprotege.stanford.edu/Room"
     },
     "OffState" : {
       "@id" : "https://w3id.org/saref#OffState"
@@ -146,16 +143,40 @@
       "@id" : "https://w3id.org/saref#hasName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "Rocf" : {
+      "@id" : "http://webprotege.stanford.edu/Rocf"
+    },
+    "hasMobileNumber" : {
+      "@id" : "http://webprotege.stanford.edu/hasMobileNumber"
+    },
+    "floorsBelowGround" : {
+      "@id" : "http://webprotege.stanford.edu/floorsBelowGround"
+    },
+    "Angle" : {
+      "@id" : "http://webprotege.stanford.edu/Angle"
+    },
+    "Voltage" : {
+      "@id" : "http://webprotege.stanford.edu/Voltage"
+    },
+    "createdAt" : {
+      "@id" : "http://webprotege.stanford.edu/createdAt"
+    },
     "isOfferedBy" : {
       "@id" : "https://w3id.org/saref#isOfferedBy",
       "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://webprotege.stanford.edu/dataProvider"
+    },
+    "AC-DC" : {
+      "@id" : "http://webprotege.stanford.edu/AC-DC"
     },
     "measuresProperty" : {
       "@id" : "https://w3id.org/saref#measuresProperty",
       "@type" : "@id"
     },
-    "R9Ss0nlABbeWn3nuA9NaaUI" : {
-      "@id" : "http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI"
+    "supplierName" : {
+      "@id" : "http://webprotege.stanford.edu/supplierName"
     },
     "PressureUnit" : {
       "@id" : "https://w3id.org/saref#PressureUnit"
@@ -166,73 +187,81 @@
     "hasValue" : {
       "@id" : "https://w3id.org/saref#hasValue"
     },
-    "RCyTFptM6Ffpb2hWxkqHKwI" : {
-      "@id" : "http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI"
-    },
-    "R93tPRZXPIU10Mv9bNwCJVF" : {
-      "@id" : "http://webprotege.stanford.edu/R93tPRZXPIU10Mv9bNwCJVF"
-    },
     "Motion" : {
       "@id" : "https://w3id.org/saref#Motion"
+    },
+    "hasZone" : {
+      "@id" : "http://webprotege.stanford.edu/hasZone",
+      "@type" : "@id"
+    },
+    "FlowTerminalDevice" : {
+      "@id" : "http://webprotege.stanford.edu/FlowTerminalDevice"
+    },
+    "BatteryStorage" : {
+      "@id" : "http://webprotege.stanford.edu/BatteryStorage"
     },
     "hasMeterReadingType" : {
       "@id" : "https://w3id.org/saref#hasMeterReadingType",
       "@type" : "@id"
     },
-    "R7AzP49RsBgChL2gjfuR87J" : {
-      "@id" : "http://webprotege.stanford.edu/R7AzP49RsBgChL2gjfuR87J"
+    "CommunictionAppliance" : {
+      "@id" : "http://webprotege.stanford.edu/CommunictionAppliance"
     },
-    "R9zZnEzh8zvn7is0mE0LthT" : {
-      "@id" : "http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT"
+    "DC-DC" : {
+      "@id" : "http://webprotege.stanford.edu/DC-DC"
     },
-    "RB2YUUSy6fvmFIpoLSZRUAj" : {
-      "@id" : "http://webprotege.stanford.edu/RB2YUUSy6fvmFIpoLSZRUAj"
+    "WPP" : {
+      "@id" : "http://webprotege.stanford.edu/WPP"
     },
-    "RKLytvXl3vvLXT6E5CxJ0a" : {
-      "@id" : "http://webprotege.stanford.edu/RKLytvXl3vvLXT6E5CxJ0a"
+    "hasSubZone" : {
+      "@id" : "http://webprotege.stanford.edu/hasSubZone",
+      "@type" : "@id"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "R9AH9D25gHc2oWMtzaudnSm" : {
-      "@id" : "http://webprotege.stanford.edu/R9AH9D25gHc2oWMtzaudnSm",
-      "@type" : "@id"
-    },
-    "RBEGuaA52cHppTouAyrwvxg" : {
-      "@id" : "http://webprotege.stanford.edu/RBEGuaA52cHppTouAyrwvxg"
-    },
     "GetMeterDataCommand" : {
       "@id" : "https://w3id.org/saref#GetMeterDataCommand"
     },
-    "RC1uju7MusVWB3TEBgr8qmA" : {
-      "@id" : "http://webprotege.stanford.edu/RC1uju7MusVWB3TEBgr8qmA"
+    "PrimaryVoltage" : {
+      "@id" : "http://webprotege.stanford.edu/PrimaryVoltage"
+    },
+    "ControlDevice" : {
+      "@id" : "http://webprotege.stanford.edu/ControlDevice"
     },
     "OnCommand" : {
       "@id" : "https://w3id.org/saref#OnCommand"
     },
-    "RCnxMGA7ioZShgqxi8IYdez" : {
-      "@id" : "http://webprotege.stanford.edu/RCnxMGA7ioZShgqxi8IYdez"
+    "Damper" : {
+      "@id" : "http://webprotege.stanford.edu/Damper"
+    },
+    "Tank" : {
+      "@id" : "http://webprotege.stanford.edu/Tank"
     },
     "Measurement" : {
       "@id" : "https://w3id.org/saref#Measurement"
     },
-    "RCTumu9TEZjcTzF7uvxEB6X" : {
-      "@id" : "http://webprotege.stanford.edu/RCTumu9TEZjcTzF7uvxEB6X"
+    "Boiler" : {
+      "@id" : "http://webprotege.stanford.edu/Boiler"
     },
     "StepUpCommand" : {
       "@id" : "https://w3id.org/saref#StepUpCommand"
     },
-    "R9x3pouY4L0SPgdOqzHoS5Q" : {
-      "@id" : "http://webprotege.stanford.edu/R9x3pouY4L0SPgdOqzHoS5Q"
-    },
-    "R4TThu5olmO7P4xlm5s5zt" : {
-      "@id" : "http://webprotege.stanford.edu/R4TThu5olmO7P4xlm5s5zt"
+    "Current" : {
+      "@id" : "http://webprotege.stanford.edu/Current"
     },
     "LightingDevice" : {
       "@id" : "https://w3id.org/saref#LightingDevice"
     },
+    "higherLimit" : {
+      "@id" : "http://webprotege.stanford.edu/higherLimit"
+    },
     "OnState" : {
       "@id" : "https://w3id.org/saref#OnState"
+    },
+    "hasBuilding" : {
+      "@id" : "http://webprotege.stanford.edu/hasBuilding",
+      "@type" : "@id"
     },
     "hasCommand" : {
       "@id" : "https://w3id.org/saref#hasCommand",
@@ -241,60 +270,46 @@
     "Gas" : {
       "@id" : "https://w3id.org/saref#Gas"
     },
-    "RDz6CRhHqQLvwebz9G2W8eT" : {
-      "@id" : "http://webprotege.stanford.edu/RDz6CRhHqQLvwebz9G2W8eT"
-    },
-    "R9cCDlfuefKP15nQEyJpDcP" : {
-      "@id" : "http://webprotege.stanford.edu/R9cCDlfuefKP15nQEyJpDcP"
+    "FlowDevice" : {
+      "@id" : "http://webprotege.stanford.edu/FlowDevice"
     },
     "Light" : {
       "@id" : "https://w3id.org/saref#Light"
     },
+    "sampleRate" : {
+      "@id" : "http://webprotege.stanford.edu/sampleRate"
+    },
     "Temperature" : {
       "@id" : "https://w3id.org/saref#Temperature"
     },
-    "R8fXDcAVFtOLwmLiVrAx3yp" : {
-      "@id" : "http://webprotege.stanford.edu/R8fXDcAVFtOLwmLiVrAx3yp"
+    "openingHours" : {
+      "@id" : "http://webprotege.stanford.edu/openingHours"
     },
     "SetLevelCommand" : {
       "@id" : "https://w3id.org/saref#SetLevelCommand"
-    },
-    "RJi25GAQCidJlRgLlIEqK6" : {
-      "@id" : "http://webprotege.stanford.edu/RJi25GAQCidJlRgLlIEqK6"
-    },
-    "RLWTEPVr8UF9rpTDIbYCvI" : {
-      "@id" : "http://webprotege.stanford.edu/RLWTEPVr8UF9rpTDIbYCvI"
     },
     "isAccomplishedBy" : {
       "@id" : "https://w3id.org/saref#isAccomplishedBy",
       "@type" : "@id"
     },
-    "RCAbfsvxj9bVB6MiKHXZnHy" : {
-      "@id" : "http://webprotege.stanford.edu/RCAbfsvxj9bVB6MiKHXZnHy"
-    },
     "PowerUnit" : {
       "@id" : "https://w3id.org/saref#PowerUnit"
     },
-    "RLB9CYDaWlf0rsfcjiV1UY" : {
-      "@id" : "http://webprotege.stanford.edu/RLB9CYDaWlf0rsfcjiV1UY"
+    "floorsAboveGround" : {
+      "@id" : "http://webprotege.stanford.edu/floorsAboveGround"
     },
-    "R8C4U2kKYLWac4OTSJQAuV2" : {
-      "@id" : "http://webprotege.stanford.edu/R8C4U2kKYLWac4OTSJQAuV2"
+    "AirToAirHeatRecovery" : {
+      "@id" : "http://webprotege.stanford.edu/AirToAirHeatRecovery"
     },
-    "R7ONCLvdLIVcybZHCk9rqnF" : {
-      "@id" : "http://webprotege.stanford.edu/R7ONCLvdLIVcybZHCk9rqnF"
-    },
-    "RDNfhlsTSL1pkSnCkjr6B3s" : {
-      "@id" : "http://webprotege.stanford.edu/RDNfhlsTSL1pkSnCkjr6B3s"
-    },
-    "RChvSMcuYUWfGDDdDlN1X78" : {
-      "@id" : "http://webprotege.stanford.edu/RChvSMcuYUWfGDDdDlN1X78"
+    "containOf" : {
+      "@id" : "http://webprotege.stanford.edu/containOf",
+      "@type" : "@id"
     },
     "Price" : {
       "@id" : "https://w3id.org/saref#Price"
     },
-    "R9sGXnWRopKt3SnizLWNcHb" : {
-      "@id" : "http://webprotege.stanford.edu/R9sGXnWRopKt3SnizLWNcHb"
+    "FlowMovingDevice" : {
+      "@id" : "http://webprotege.stanford.edu/FlowMovingDevice"
     },
     "LevelControlFunction" : {
       "@id" : "https://w3id.org/saref#LevelControlFunction"
@@ -302,15 +317,19 @@
     "OpenCommand" : {
       "@id" : "https://w3id.org/saref#OpenCommand"
     },
-    "RCTgXsR6c8kfZvUjUW5UTNt" : {
-      "@id" : "http://webprotege.stanford.edu/RCTgXsR6c8kfZvUjUW5UTNt"
+    "PowerMeter" : {
+      "@id" : "http://webprotege.stanford.edu/PowerMeter"
     },
-    "R7dFhOXbtQS060HG10LYKMg" : {
-      "@id" : "http://webprotege.stanford.edu/R7dFhOXbtQS060HG10LYKMg"
-    },
-    "RCeh3vKI5NGDzw3o39LD4Mi" : {
-      "@id" : "http://webprotege.stanford.edu/RCeh3vKI5NGDzw3o39LD4Mi",
+    "hasChannel" : {
+      "@id" : "http://webprotege.stanford.edu/hasChannel",
       "@type" : "@id"
+    },
+    "isLocatedAt" : {
+      "@id" : "http://webprotege.stanford.edu/isLocatedAt",
+      "@type" : "@id"
+    },
+    "ti" : {
+      "@id" : "http://webprotege.stanford.edu/ti"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator"
@@ -318,11 +337,11 @@
     "GetSensingDataCommand" : {
       "@id" : "https://w3id.org/saref#GetSensingDataCommand"
     },
-    "Energy" : {
-      "@id" : "https://w3id.org/saref#Energy"
+    "timeStamp" : {
+      "@id" : "http://webprotege.stanford.edu/timeStamp"
     },
-    "RddfRR1iAEUWOtY3vXRnmh" : {
-      "@id" : "http://webprotege.stanford.edu/RddfRR1iAEUWOtY3vXRnmh",
+    "name" : {
+      "@id" : "http://webprotege.stanford.edu/name",
       "@type" : "@id"
     },
     "OnOffState" : {
@@ -331,8 +350,8 @@
     "Water" : {
       "@id" : "https://w3id.org/saref#Water"
     },
-    "R9Lha7bBAbXWpAXs3LEXiBM" : {
-      "@id" : "http://webprotege.stanford.edu/R9Lha7bBAbXWpAXs3LEXiBM"
+    "readableName" : {
+      "@id" : "http://webprotege.stanford.edu/readableName"
     },
     "GetCurrentMeterValueCommand" : {
       "@id" : "https://w3id.org/saref#GetCurrentMeterValueCommand"
@@ -341,45 +360,73 @@
       "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
       "@type" : "@id"
     },
+    "Transformer" : {
+      "@id" : "http://webprotege.stanford.edu/Transformer"
+    },
     "Electricity" : {
       "@id" : "https://w3id.org/saref#Electricity"
     },
     "StartState" : {
       "@id" : "https://w3id.org/saref#StartState"
     },
-    "R7MbwqU5avXFhqTXWUDHMr2" : {
-      "@id" : "http://webprotege.stanford.edu/R7MbwqU5avXFhqTXWUDHMr2"
-    },
-    "RZ6zoGFOkcTQApOrEUU375" : {
-      "@id" : "http://webprotege.stanford.edu/RZ6zoGFOkcTQApOrEUU375"
+    "FlowStorageDevice" : {
+      "@id" : "http://webprotege.stanford.edu/FlowStorageDevice"
     },
     "hasTime" : {
       "@id" : "https://w3id.org/saref#hasTime",
       "@type" : "@id"
     },
-    "R7RmVt0SGl9lECEozmKGzFR" : {
-      "@id" : "http://webprotege.stanford.edu/R7RmVt0SGl9lECEozmKGzFR"
+    "sampleInterval" : {
+      "@id" : "http://webprotege.stanford.edu/sampleInterval"
     },
     "OpenCloseFunction" : {
       "@id" : "https://w3id.org/saref#OpenCloseFunction"
     },
-    "RC86IYupDxnQStzTutZS6Wa" : {
-      "@id" : "http://webprotege.stanford.edu/RC86IYupDxnQStzTutZS6Wa"
-    },
     "StepDownCommand" : {
       "@id" : "https://w3id.org/saref#StepDownCommand"
+    },
+    "TapPosition" : {
+      "@id" : "http://webprotege.stanford.edu/TapPosition"
     },
     "ActuatingFunction" : {
       "@id" : "https://w3id.org/saref#ActuatingFunction"
     },
+    "location" : {
+      "@id" : "http://webprotege.stanford.edu/location"
+    },
+    "Convertor" : {
+      "@id" : "http://webprotege.stanford.edu/Convertor"
+    },
+    "TapPostion" : {
+      "@id" : "http://webprotege.stanford.edu/TapPostion"
+    },
     "GetCommand" : {
       "@id" : "https://w3id.org/saref#GetCommand"
     },
-    "RCB8WT4RJgvKPmInfrvoHoG" : {
-      "@id" : "http://webprotege.stanford.edu/RCB8WT4RJgvKPmInfrvoHoG"
+    "Compressor" : {
+      "@id" : "http://webprotege.stanford.edu/Compressor"
+    },
+    "SwitchingDevice" : {
+      "@id" : "http://webprotege.stanford.edu/SwitchingDevice"
     },
     "CloseState" : {
       "@id" : "https://w3id.org/saref#CloseState"
+    },
+    "locatedAt" : {
+      "@id" : "http://webprotege.stanford.edu/locatedAt",
+      "@type" : "@id"
+    },
+    "tapPosition" : {
+      "@id" : "http://webprotege.stanford.edu/tapPosition"
+    },
+    "Zone" : {
+      "@id" : "http://webprotege.stanford.edu/Zone"
+    },
+    "primaryVoltage" : {
+      "@id" : "http://webprotege.stanford.edu/primaryVoltage"
+    },
+    "listening" : {
+      "@id" : "http://webprotege.stanford.edu/listening"
     },
     "StopState" : {
       "@id" : "https://w3id.org/saref#StopState"
@@ -387,21 +434,11 @@
     "TemporalEntity" : {
       "@id" : "http://www.w3.org/2006/time#TemporalEntity"
     },
-    "R8Yxqfpz1aR7JplouuPITGh" : {
-      "@id" : "http://webprotege.stanford.edu/R8Yxqfpz1aR7JplouuPITGh"
-    },
     "Profile" : {
       "@id" : "https://w3id.org/saref#Profile"
     },
-    "RnDZCWKi1PmBcQlAUaQnxX" : {
-      "@id" : "http://webprotege.stanford.edu/RnDZCWKi1PmBcQlAUaQnxX"
-    },
-    "RDr4QPwW1aAnf2H9jnQY9bB" : {
-      "@id" : "http://webprotege.stanford.edu/RDr4QPwW1aAnf2H9jnQY9bB"
-    },
-    "R7GBdHqGSQEE39NloEbSS3" : {
-      "@id" : "http://webprotege.stanford.edu/R7GBdHqGSQEE39NloEbSS3",
-      "@type" : "@id"
+    "PV" : {
+      "@id" : "http://webprotege.stanford.edu/PV"
     },
     "isAbout" : {
       "@id" : "https://w3id.org/saref#isAbout",
@@ -416,24 +453,18 @@
     "EnergyRelated" : {
       "@id" : "https://w3id.org/saref#EnergyRelated"
     },
-    "RDgAH2IrVVCYgpHHQV6f0Zb" : {
-      "@id" : "http://webprotege.stanford.edu/RDgAH2IrVVCYgpHHQV6f0Zb"
-    },
-    "RCElJW45EOo4u4EiUWV0oLs" : {
-      "@id" : "http://webprotege.stanford.edu/RCElJW45EOo4u4EiUWV0oLs"
-    },
-    "R8vqbzoFPiPIiHWci7TKUGO" : {
-      "@id" : "http://webprotege.stanford.edu/R8vqbzoFPiPIiHWci7TKUGO"
+    "writable" : {
+      "@id" : "http://webprotege.stanford.edu/writable"
     },
     "relatesToMeasurement" : {
       "@id" : "https://w3id.org/saref#relatesToMeasurement",
       "@type" : "@id"
     },
+    "PMU" : {
+      "@id" : "http://webprotege.stanford.edu/PMU"
+    },
     "OpenCloseState" : {
       "@id" : "https://w3id.org/saref#OpenCloseState"
-    },
-    "RD1ktocZXbRdizsc95Zb6hb" : {
-      "@id" : "http://webprotege.stanford.edu/RD1ktocZXbRdizsc95Zb6hb"
     },
     "OffCommand" : {
       "@id" : "https://w3id.org/saref#OffCommand"
@@ -442,34 +473,44 @@
       "@id" : "https://w3id.org/saref#isMeasuredByDevice",
       "@type" : "@id"
     },
-    "RDrT9t6VmjmMXFINQ1yJMNJ" : {
-      "@id" : "http://webprotege.stanford.edu/RDrT9t6VmjmMXFINQ1yJMNJ"
+    "Tenant" : {
+      "@id" : "http://webprotege.stanford.edu/Tenant"
     },
-    "RSdvWyNbgQrUKaZeqC27QZ" : {
-      "@id" : "http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"
+    "Fan" : {
+      "@id" : "http://webprotege.stanford.edu/Fan"
+    },
+    "WaterFlowSensor" : {
+      "@id" : "http://webprotege.stanford.edu/WaterFlowSensor"
+    },
+    "SpaceHeater" : {
+      "@id" : "http://webprotege.stanford.edu/SpaceHeater"
+    },
+    "Coil" : {
+      "@id" : "http://webprotege.stanford.edu/Coil"
+    },
+    "reverseAction" : {
+      "@id" : "http://webprotege.stanford.edu/reverseAction"
     },
     "hasTypicalConsumption" : {
       "@id" : "https://w3id.org/saref#hasTypicalConsumption",
       "@type" : "@id"
     },
-    "RDzHte7rXVSgkFwpYMfCOT5" : {
-      "@id" : "http://webprotege.stanford.edu/RDzHte7rXVSgkFwpYMfCOT5"
+    "hasSensor" : {
+      "@id" : "http://webprotege.stanford.edu/hasSensor",
+      "@type" : "@id"
     },
-    "R8yGcsaqMooXtA1CAD21Jpg" : {
-      "@id" : "http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg"
+    "reactivePower" : {
+      "@id" : "http://webprotege.stanford.edu/reactivePower"
     },
-    "R9ynrxCyB4neGbcBS0RsAxp" : {
-      "@id" : "http://webprotege.stanford.edu/R9ynrxCyB4neGbcBS0RsAxp"
+    "controllAsset" : {
+      "@id" : "http://webprotege.stanford.edu/controllAsset"
     },
-    "isDefinedBy" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    "hasFloor" : {
+      "@id" : "http://webprotege.stanford.edu/hasFloor"
     },
     "makesMeasurement" : {
       "@id" : "https://w3id.org/saref#makesMeasurement",
       "@type" : "@id"
-    },
-    "R8jXutEVA4lcQc3DenWTjN0" : {
-      "@id" : "http://webprotege.stanford.edu/R8jXutEVA4lcQc3DenWTjN0"
     },
     "SensingFunction" : {
       "@id" : "https://w3id.org/saref#SensingFunction"
@@ -484,14 +525,15 @@
       "@id" : "https://w3id.org/saref#represents",
       "@type" : "@id"
     },
-    "R9Glqq0qFcr3BxOkjyvHIyB" : {
-      "@id" : "http://webprotege.stanford.edu/R9Glqq0qFcr3BxOkjyvHIyB"
+    "refBuilding" : {
+      "@id" : "http://webprotege.stanford.edu/refBuilding",
+      "@type" : "@id"
     },
     "GetMeterHistoryCommand" : {
       "@id" : "https://w3id.org/saref#GetMeterHistoryCommand"
     },
-    "RCslnYTuhLdCeR3f2NsUZfh" : {
-      "@id" : "http://webprotege.stanford.edu/RCslnYTuhLdCeR3f2NsUZfh"
+    "HV-DC" : {
+      "@id" : "http://webprotege.stanford.edu/HV-DC"
     },
     "StopCommand" : {
       "@id" : "https://w3id.org/saref#StopCommand"
@@ -499,11 +541,11 @@
     "StartStopState" : {
       "@id" : "https://w3id.org/saref#StartStopState"
     },
-    "R9TtTs8Kbux9eMtSGBoCHpn" : {
-      "@id" : "http://webprotege.stanford.edu/R9TtTs8Kbux9eMtSGBoCHpn"
-    },
     "Property" : {
       "@id" : "https://w3id.org/saref#Property"
+    },
+    "CT-VT" : {
+      "@id" : "http://webprotege.stanford.edu/CT-VT"
     },
     "hasFunction" : {
       "@id" : "https://w3id.org/saref#hasFunction",
@@ -522,33 +564,37 @@
       "@id" : "https://w3id.org/saref#isUsedFor",
       "@type" : "@id"
     },
+    "setValue" : {
+      "@id" : "http://webprotege.stanford.edu/setValue"
+    },
     "source" : {
-      "@id" : "http://purl.org/dc/terms/source"
+      "@id" : "http://webprotege.stanford.edu/source"
     },
     "Occupancy" : {
       "@id" : "https://w3id.org/saref#Occupancy"
     },
+    "hasTenant" : {
+      "@id" : "http://webprotege.stanford.edu/hasTenant",
+      "@type" : "@id"
+    },
     "TemperatureSensor" : {
       "@id" : "https://w3id.org/saref#TemperatureSensor"
-    },
-    "RBi2DSZTXz0RX6hBJpaymFa" : {
-      "@id" : "http://webprotege.stanford.edu/RBi2DSZTXz0RX6hBJpaymFa"
     },
     "LightSwitch" : {
       "@id" : "https://w3id.org/saref#LightSwitch"
     },
+    "controlAsset" : {
+      "@id" : "http://webprotege.stanford.edu/controlAsset"
+    },
     "PauseCommand" : {
       "@id" : "https://w3id.org/saref#PauseCommand"
+    },
+    "Interceptor" : {
+      "@id" : "http://webprotege.stanford.edu/Interceptor"
     },
     "isMeasuredIn" : {
       "@id" : "https://w3id.org/saref#isMeasuredIn",
       "@type" : "@id"
-    },
-    "RB6s1uCXcK2VqWn0IGDvQxJ" : {
-      "@id" : "http://webprotege.stanford.edu/RB6s1uCXcK2VqWn0IGDvQxJ"
-    },
-    "R8kHaci0mWrV4uPbW4ZgXRs" : {
-      "@id" : "http://webprotege.stanford.edu/R8kHaci0mWrV4uPbW4ZgXRs"
     },
     "publisher" : {
       "@id" : "http://purl.org/dc/terms/publisher"
@@ -556,40 +602,48 @@
     "Coal" : {
       "@id" : "https://w3id.org/saref#Coal"
     },
-    "Rbdab3Spwb8PlGkBwutw0i" : {
-      "@id" : "http://webprotege.stanford.edu/Rbdab3Spwb8PlGkBwutw0i"
-    },
     "Smoke" : {
       "@id" : "https://w3id.org/saref#Smoke"
+    },
+    "hasRoom" : {
+      "@id" : "http://webprotege.stanford.edu/hasRoom",
+      "@type" : "@id"
+    },
+    "FlowMeter" : {
+      "@id" : "http://webprotege.stanford.edu/FlowMeter"
     },
     "Load" : {
       "@id" : "https://w3id.org/saref#Load"
     },
-    "RBPMEV5PUKsxchn187zbKdj" : {
-      "@id" : "http://webprotege.stanford.edu/RBPMEV5PUKsxchn187zbKdj"
+    "PrimaryCurrent" : {
+      "@id" : "http://webprotege.stanford.edu/PrimaryCurrent"
     },
     "hasMeterReading" : {
       "@id" : "https://w3id.org/saref#hasMeterReading",
       "@type" : "@id"
     },
-    "RCsyTeO4VQGVl11ERL7hQrH" : {
-      "@id" : "http://webprotege.stanford.edu/RCsyTeO4VQGVl11ERL7hQrH"
-    },
     "consistsOf" : {
       "@id" : "https://w3id.org/saref#consistsOf",
       "@type" : "@id"
     },
+    "Owner" : {
+      "@id" : "http://webprotege.stanford.edu/Owner"
+    },
+    "kp" : {
+      "@id" : "http://webprotege.stanford.edu/kp"
+    },
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified"
     },
-    "RCdkl1t8AbjY4mSCQeIN2kq" : {
-      "@id" : "http://webprotege.stanford.edu/RCdkl1t8AbjY4mSCQeIN2kq"
+    "Frequency" : {
+      "@id" : "http://webprotege.stanford.edu/Frequency"
+    },
+    "controlledProperty" : {
+      "@id" : "http://webprotege.stanford.edu/controlledProperty",
+      "@type" : "@id"
     },
     "SetRelativeLevelCommand" : {
       "@id" : "https://w3id.org/saref#SetRelativeLevelCommand"
-    },
-    "RCgYSBb2kwST5PilfSPdF2b" : {
-      "@id" : "http://webprotege.stanford.edu/RCgYSBb2kwST5PilfSPdF2b"
     },
     "EventFunction" : {
       "@id" : "https://w3id.org/saref#EventFunction"
@@ -601,11 +655,16 @@
       "@id" : "https://w3id.org/saref#isCommandOf",
       "@type" : "@id"
     },
-    "RBpiVVTtwCMmjyKVqwFn32E" : {
-      "@id" : "http://webprotege.stanford.edu/RBpiVVTtwCMmjyKVqwFn32E"
+    "locatedIn" : {
+      "@id" : "http://webprotege.stanford.edu/locatedIn",
+      "@type" : "@id"
+    },
+    "connectedActuator" : {
+      "@id" : "http://webprotege.stanford.edu/connectedActuator",
+      "@type" : "@id"
     },
     "BuildingRelated" : {
-      "@id" : "https://w3id.org/saref#BuildingRelated"
+      "@id" : "http://webprotege.stanford.edu/BuildingRelated"
     },
     "hasSensingRange" : {
       "@id" : "https://w3id.org/saref#hasSensingRange",
@@ -616,6 +675,12 @@
     },
     "TemperatureUnit" : {
       "@id" : "https://w3id.org/saref#TemperatureUnit"
+    },
+    "Timestamp" : {
+      "@id" : "http://webprotege.stanford.edu/Timestamp"
+    },
+    "Pump" : {
+      "@id" : "http://webprotege.stanford.edu/Pump"
     },
     "hasSensorType" : {
       "@id" : "https://w3id.org/saref#hasSensorType",
@@ -628,37 +693,27 @@
       "@id" : "https://w3id.org/saref#hasState",
       "@type" : "@id"
     },
-    "RLObgBrWUGbtlQvTc4OsHG" : {
-      "@id" : "http://webprotege.stanford.edu/RLObgBrWUGbtlQvTc4OsHG",
-      "@type" : "@id"
+    "Channel" : {
+      "@id" : "http://webprotege.stanford.edu/Channel"
     },
-    "RCWsQXkOcAHxLLB1JRibpTd" : {
-      "@id" : "http://webprotege.stanford.edu/RCWsQXkOcAHxLLB1JRibpTd"
+    "ElectricitySensor" : {
+      "@id" : "http://webprotege.stanford.edu/ElectricitySensor"
     },
     "State" : {
       "@id" : "https://w3id.org/saref#State"
     },
-    "R9bxyqfBfStiSZ33jrghrZ7" : {
-      "@id" : "http://webprotege.stanford.edu/R9bxyqfBfStiSZ33jrghrZ7"
+    "modifiedAt" : {
+      "@id" : "http://webprotege.stanford.edu/modifiedAt"
     },
-    "R7gL1iXzViEvM39mhH7N5lG" : {
-      "@id" : "http://webprotege.stanford.edu/R7gL1iXzViEvM39mhH7N5lG"
+    "AirFlowSensor" : {
+      "@id" : "http://webprotege.stanford.edu/AirFlowSensor"
     },
     "hasProfile" : {
       "@id" : "https://w3id.org/saref#hasProfile",
       "@type" : "@id"
     },
-    "RipK16q5JKeGXpfyolLehV" : {
-      "@id" : "http://webprotege.stanford.edu/RipK16q5JKeGXpfyolLehV"
-    },
-    "R8EFOfQ6VvfWs0fb7ETTCoC" : {
-      "@id" : "http://webprotege.stanford.edu/R8EFOfQ6VvfWs0fb7ETTCoC"
-    },
-    "RKCxla7pj2Mt4Dtv4RzY5q" : {
-      "@id" : "http://webprotege.stanford.edu/RKCxla7pj2Mt4Dtv4RzY5q"
-    },
-    "R7u37iRF1XNSqOBsn8Zhsjs" : {
-      "@id" : "http://webprotege.stanford.edu/R7u37iRF1XNSqOBsn8Zhsjs"
+    "MaxReactivePower" : {
+      "@id" : "http://webprotege.stanford.edu/MaxReactivePower"
     },
     "relatesToProperty" : {
       "@id" : "https://w3id.org/saref#relatesToProperty",
@@ -667,11 +722,20 @@
     "OnOffFunction" : {
       "@id" : "https://w3id.org/saref#OnOffFunction"
     },
-    "R8Q6atByV0G6D1JLt5Jupcw" : {
-      "@id" : "http://webprotege.stanford.edu/R8Q6atByV0G6D1JLt5Jupcw"
+    "Floor" : {
+      "@id" : "http://webprotege.stanford.edu/Floor"
     },
     "Function" : {
       "@id" : "https://w3id.org/saref#Function"
+    },
+    "FlowTerminal" : {
+      "@id" : "http://webprotege.stanford.edu/FlowTerminal"
+    },
+    "ActivePower" : {
+      "@id" : "http://webprotege.stanford.edu/ActivePower"
+    },
+    "loggingInterval" : {
+      "@id" : "http://webprotege.stanford.edu/loggingInterval"
     },
     "Actuator" : {
       "@id" : "https://w3id.org/saref#Actuator"
@@ -679,14 +743,17 @@
     "Currency" : {
       "@id" : "https://w3id.org/saref#Currency"
     },
-    "RDYpanpTHLQLnjXDwLHcpCQ" : {
-      "@id" : "http://webprotege.stanford.edu/RDYpanpTHLQLnjXDwLHcpCQ"
+    "Controller" : {
+      "@id" : "http://webprotege.stanford.edu/Controller"
     },
-    "IlluminanceUnit" : {
-      "@id" : "https://w3id.org/saref#IlluminanceUnit"
+    "HP" : {
+      "@id" : "http://webprotege.stanford.edu/HP"
     },
-    "RBFqIdeyoI0Ru908k9aVlOE" : {
-      "@id" : "http://webprotege.stanford.edu/RBFqIdeyoI0Ru908k9aVlOE"
+    "operationSequence" : {
+      "@id" : "http://webprotege.stanford.edu/operationSequence"
+    },
+    "AudioVisualAppliance" : {
+      "@id" : "http://webprotege.stanford.edu/AudioVisualAppliance"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -694,22 +761,29 @@
     "Service" : {
       "@id" : "https://w3id.org/saref#Service"
     },
+    "ElectronicTimeControl" : {
+      "@id" : "http://webprotege.stanford.edu/ElectronicTimeControl"
+    },
     "controlsProperty" : {
       "@id" : "https://w3id.org/saref#controlsProperty",
       "@type" : "@id"
     },
-    "RB8kVin94KMOdCqBXQfzoBq" : {
-      "@id" : "http://webprotege.stanford.edu/RB8kVin94KMOdCqBXQfzoBq",
+    "supportedNetwork" : {
+      "@id" : "http://webprotege.stanford.edu/supportedNetwork"
+    },
+    "inFloor" : {
+      "@id" : "http://webprotege.stanford.edu/inFloor",
       "@type" : "@id"
     },
-    "RC0mNOzlSTIhtOnF7jQPPUb" : {
-      "@id" : "http://webprotege.stanford.edu/RC0mNOzlSTIhtOnF7jQPPUb"
+    "Chiller" : {
+      "@id" : "http://webprotege.stanford.edu/Chiller"
     },
     "contributor" : {
       "@id" : "http://purl.org/dc/terms/contributor"
     },
-    "R7wV2NrvqVp9Yo8dgX5OHYP" : {
-      "@id" : "http://webprotege.stanford.edu/R7wV2NrvqVp9Yo8dgX5OHYP"
+    "inRoom" : {
+      "@id" : "http://webprotege.stanford.edu/inRoom",
+      "@type" : "@id"
     },
     "EnergyMeter" : {
       "@id" : "https://w3id.org/saref#EnergyMeter"
@@ -723,36 +797,34 @@
     "ToggleCommand" : {
       "@id" : "https://w3id.org/saref#ToggleCommand"
     },
-    "R9KdTRIHz9usCNpX2dg4K1f" : {
-      "@id" : "http://webprotege.stanford.edu/R9KdTRIHz9usCNpX2dg4K1f"
+    "Maqnititute" : {
+      "@id" : "http://webprotege.stanford.edu/Maqnititute"
+    },
+    "FlowController" : {
+      "@id" : "http://webprotege.stanford.edu/FlowController"
     },
     "Device" : {
       "@id" : "https://w3id.org/saref#Device"
     },
-    "RDwvpbGDvjUTopZ1lKVZwK4" : {
-      "@id" : "http://webprotege.stanford.edu/RDwvpbGDvjUTopZ1lKVZwK4"
-    },
-    "RBwFHsGyJHwz5MnZx9gY3sC" : {
-      "@id" : "http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC"
+    "subCategory" : {
+      "@id" : "http://webprotege.stanford.edu/subCategory",
+      "@type" : "@id"
     },
     "flow" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#flow"
+    },
+    "MaxActivePower" : {
+      "@id" : "http://webprotege.stanford.edu/MaxActivePower"
     },
     "hasDescription" : {
       "@id" : "https://w3id.org/saref#hasDescription",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
-    "R9Zy43nV4NbIka1mpm2Pf9N" : {
-      "@id" : "http://webprotege.stanford.edu/R9Zy43nV4NbIka1mpm2Pf9N"
-    },
-    "RkTWR83G6eN9UoxmHGseqK" : {
-      "@id" : "http://webprotege.stanford.edu/RkTWR83G6eN9UoxmHGseqK"
+    "serialNumber" : {
+      "@id" : "http://webprotege.stanford.edu/serialNumber"
     },
     "hasTimestamp" : {
       "@id" : "https://w3id.org/saref#hasTimestamp"
-    },
-    "RRbQ4pSzZcIq9icXuZpJeq" : {
-      "@id" : "http://webprotege.stanford.edu/RRbQ4pSzZcIq9icXuZpJeq"
     },
     "Power" : {
       "@id" : "https://w3id.org/saref#Power"
@@ -760,56 +832,55 @@
     "Task" : {
       "@id" : "https://w3id.org/saref#Task"
     },
-    "R8SdRi8vlSOqECQEgmWWArJ" : {
-      "@id" : "http://webprotege.stanford.edu/R8SdRi8vlSOqECQEgmWWArJ",
-      "@type" : "@id"
-    },
-    "Reh2hHaLwD7kB47FpyBIIC" : {
-      "@id" : "http://webprotege.stanford.edu/Reh2hHaLwD7kB47FpyBIIC"
-    },
-    "R7Zkc8DFoAj6xmADvZjNgLJ" : {
-      "@id" : "http://webprotege.stanford.edu/R7Zkc8DFoAj6xmADvZjNgLJ",
-      "@type" : "@id"
+    "CurrentLevel" : {
+      "@id" : "http://webprotege.stanford.edu/CurrentLevel"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/terms/description"
+      "@id" : "http://webprotege.stanford.edu/description"
+    },
+    "lowerLimit" : {
+      "@id" : "http://webprotege.stanford.edu/lowerLimit"
     },
     "Time" : {
       "@id" : "https://w3id.org/saref#Time"
     },
-    "RC7ySF27aPGkWjmwYvfLMQi" : {
-      "@id" : "http://webprotege.stanford.edu/RC7ySF27aPGkWjmwYvfLMQi"
+    "EnergyConversionDevice" : {
+      "@id" : "http://webprotege.stanford.edu/EnergyConversionDevice"
     },
-    "RemnWOvTuSTwanC91L6ogd" : {
-      "@id" : "http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"
+    "ipAddress" : {
+      "@id" : "http://webprotege.stanford.edu/ipAddress"
     },
-    "RBrF1fTldAyrjWYssavQ5VQ" : {
-      "@id" : "http://webprotege.stanford.edu/RBrF1fTldAyrjWYssavQ5VQ"
+    "liveIn" : {
+      "@id" : "http://webprotege.stanford.edu/liveIn",
+      "@type" : "@id"
     },
-    "RW4ILUq0GOY2cDjFWJzN5v" : {
-      "@id" : "http://webprotege.stanford.edu/RW4ILUq0GOY2cDjFWJzN5v"
+    "Flow" : {
+      "@id" : "http://webprotege.stanford.edu/Flow"
+    },
+    "CO2Level" : {
+      "@id" : "http://webprotege.stanford.edu/CO2Level"
     },
     "offers" : {
       "@id" : "https://w3id.org/saref#offers",
       "@type" : "@id"
     },
-    "RYiN7LIy9SL6vbdRr4iTEq" : {
-      "@id" : "http://webprotege.stanford.edu/RYiN7LIy9SL6vbdRr4iTEq"
+    "StateOfCharge" : {
+      "@id" : "http://webprotege.stanford.edu/StateOfCharge"
     },
-    "R9IgoverIUzHenFY28JLVQG" : {
-      "@id" : "http://webprotege.stanford.edu/R9IgoverIUzHenFY28JLVQG"
-    },
-    "R9ifOw6ljRaDlXiQrPMARW7" : {
-      "@id" : "http://webprotege.stanford.edu/R9ifOw6ljRaDlXiQrPMARW7"
-    },
-    "RCTMpBzwfC3ibffls4vUt06" : {
-      "@id" : "http://webprotege.stanford.edu/RCTMpBzwfC3ibffls4vUt06"
+    "PID" : {
+      "@id" : "http://webprotege.stanford.edu/PID"
     },
     "Sensor" : {
       "@id" : "https://w3id.org/saref#Sensor"
     },
-    "R9uDJxmZz4gajOLqdvo9Bu4" : {
-      "@id" : "http://webprotege.stanford.edu/R9uDJxmZz4gajOLqdvo9Bu4"
+    "controlledAsset" : {
+      "@id" : "http://webprotege.stanford.edu/controlledAsset"
+    },
+    "secondaryVoltage" : {
+      "@id" : "http://webprotege.stanford.edu/secondaryVoltage"
+    },
+    "Accuracy" : {
+      "@id" : "http://webprotege.stanford.edu/Accuracy"
     }
   }
 }

@@ -76,12 +76,10 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R9KdTRIHz9usCNpX2dg4K1f -->
+    <!-- http://webprotege.stanford.edu/Owner -->
 
 
-    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9KdTRIHz9usCNpX2dg4K1f">
-        <rdfs:label>Owner</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/Owner"/>
     
 
 
@@ -106,105 +104,212 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7GBdHqGSQEE39NloEbSS3 -->
+    <!-- http://webprotege.stanford.edu/connectedActuator -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7GBdHqGSQEE39NloEbSS3">
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/connectedActuator">
+        <rdfs:label>connected actuator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/connectedSensor -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/connectedSensor">
+        <rdfs:label>connected sensor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/containOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/containOf">
+        <rdfs:label>contain of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/controlledProperty -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/controlledProperty">
+        <rdfs:label>controlled property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasBuilding -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasBuilding">
+        <rdfs:label>has building</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasChannel -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasChannel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>has channel</rdfs:label>
+        <rdfs:label>hasChannel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasFloor -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasFloor"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasRoom -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasRoom">
+        <rdfs:comment>Things that have rooms...</rdfs:comment>
+        <rdfs:label>has room</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasSensor -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasSensor">
+        <rdfs:label>has sensor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasSubZone -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasSubZone">
+        <rdfs:label>has sub zone</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasTenant -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasTenant">
+        <rdfs:label>has tenant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasZone -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hasZone">
+        <rdfs:label>has zone</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/inBuilding -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/inBuilding">
+        <rdfs:label>in building</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/inFloor -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/inFloor">
+        <rdfs:label>in floor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/inRoom -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/inRoom">
+        <rdfs:label>in room</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/isLocatedAt -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/isLocatedAt">
         <rdfs:label>is located at</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R7Zkc8DFoAj6xmADvZjNgLJ -->
+    <!-- http://webprotege.stanford.edu/liveIn -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7Zkc8DFoAj6xmADvZjNgLJ">
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/liveIn">
+        <rdfs:label>live in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/locatedAt -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/locatedAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>located at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/locatedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/locatedIn">
+        <rdfs:label>located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/name -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/name">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label>name</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R8SdRi8vlSOqECQEgmWWArJ -->
+    <!-- http://webprotege.stanford.edu/refBuilding -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8SdRi8vlSOqECQEgmWWArJ">
-        <rdfs:label>refBuilding</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/refBuilding">
+        <rdfs:label>ref building</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9AH9D25gHc2oWMtzaudnSm -->
+    <!-- http://webprotege.stanford.edu/relatedSensor -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9AH9D25gHc2oWMtzaudnSm">
-        <rdfs:label>hasBuilding</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/relatedSensor">
+        <rdfs:label>related sensor</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9WFufxotu4KAAzKLx4qc2U -->
+    <!-- http://webprotege.stanford.edu/subCategory -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9WFufxotu4KAAzKLx4qc2U">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label>has channel</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB8kVin94KMOdCqBXQfzoBq -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB8kVin94KMOdCqBXQfzoBq">
-        <rdfs:comment>Things that have rooms...</rdfs:comment>
-        <rdfs:label>hasRoom</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBjUbnUXcVIn1RpQ8DS8m5Y -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBjUbnUXcVIn1RpQ8DS8m5Y">
-        <rdfs:label>hasTenant</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCNjAo2i3RVhdHFLmNIdg7e -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCNjAo2i3RVhdHFLmNIdg7e">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label>locatedAt</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCeh3vKI5NGDzw3o39LD4Mi -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCeh3vKI5NGDzw3o39LD4Mi">
-        <rdfs:label>relatedSensor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RLObgBrWUGbtlQvTc4OsHG -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RLObgBrWUGbtlQvTc4OsHG">
-        <rdfs:label>locatedIn</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RddfRR1iAEUWOtY3vXRnmh -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RddfRR1iAEUWOtY3vXRnmh">
-        <rdfs:label>connectedActuator</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/subCategory">
+        <rdfs:label>sub category</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -376,7 +481,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/saref#isAbout">
         <rdfs:comment xml:lang="en">A relationship identifying what an entity, such as a Profile, is about</rdfs:comment>
-        <rdfs:label xml:lang="en">isAbout</rdfs:label>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -524,326 +629,468 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7MbwqU5avXFhqTXWUDHMr2 -->
+    <!-- http://webprotege.stanford.edu/Accuracy -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7MbwqU5avXFhqTXWUDHMr2">
-        <rdfs:label>Supported Network</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7ONCLvdLIVcybZHCk9rqnF -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7ONCLvdLIVcybZHCk9rqnF">
-        <rdfs:label>td</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7gL1iXzViEvM39mhH7N5lG -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7gL1iXzViEvM39mhH7N5lG">
-        <rdfs:label>Primary Voltage</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7u37iRF1XNSqOBsn8Zhsjs -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7u37iRF1XNSqOBsn8Zhsjs">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Accuracy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Owner</rdfs:label>
+        <rdfs:label>accuracy</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R8Q6atByV0G6D1JLt5Jupcw -->
+    <!-- http://webprotege.stanford.edu/ActivePower -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8Q6atByV0G6D1JLt5Jupcw">
-        <rdfs:label>data Provider</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8QPBXHMQKgoyvwW0Wgo27p -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8QPBXHMQKgoyvwW0Wgo27p">
-        <rdfs:label>floorsBelowGround</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg">
-        <rdfs:label>location</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R92Py4iSAQmIMho8kmSSjGu -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R92Py4iSAQmIMho8kmSSjGu">
-        <rdfs:label>Primary Current</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9Glqq0qFcr3BxOkjyvHIyB -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9Glqq0qFcr3BxOkjyvHIyB">
-        <rdfs:label>higher-limit</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9PDn4Aa84f1Umys0v1riwj -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9PDn4Aa84f1Umys0v1riwj">
-        <rdfs:label>openingHours</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9TtTs8Kbux9eMtSGBoCHpn -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9TtTs8Kbux9eMtSGBoCHpn">
-        <rdfs:label>Current level</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9bxyqfBfStiSZ33jrghrZ7 -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9bxyqfBfStiSZ33jrghrZ7">
-        <rdfs:label>higherLimit</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9cCDlfuefKP15nQEyJpDcP -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9cCDlfuefKP15nQEyJpDcP">
-        <rdfs:label>has mobile number</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9ifOw6ljRaDlXiQrPMARW7 -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9ifOw6ljRaDlXiQrPMARW7">
-        <rdfs:label>ti</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9sGXnWRopKt3SnizLWNcHb -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9sGXnWRopKt3SnizLWNcHb">
-        <rdfs:label>Primery Voltage</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9uDJxmZz4gajOLqdvo9Bu4 -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9uDJxmZz4gajOLqdvo9Bu4">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ActivePower">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Sample Rate</rdfs:label>
+        <rdfs:label>active power</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RB03ZKnWypB1bdhZKSud2oc -->
+    <!-- http://webprotege.stanford.edu/Address -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB03ZKnWypB1bdhZKSud2oc">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Address">
+        <rdfs:label>address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/CurrentLevel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/CurrentLevel">
+        <rdfs:label>current level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/MaxActivePower -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/MaxActivePower">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Max Active Power</rdfs:label>
+        <rdfs:label>max active power</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RBpiVVTtwCMmjyKVqwFn32E -->
+    <!-- http://webprotege.stanford.edu/MaxReactivePower -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBpiVVTtwCMmjyKVqwFn32E">
-        <rdfs:label>has floor</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/MaxReactivePower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>max reactive power</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RC1uju7MusVWB3TEBgr8qmA -->
+    <!-- http://webprotege.stanford.edu/Owner -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC1uju7MusVWB3TEBgr8qmA">
-        <rdfs:label>Secondary Voltage</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Owner">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RC7ySF27aPGkWjmwYvfLMQi -->
+    <!-- http://webprotege.stanford.edu/PrimaryCurrent -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC7ySF27aPGkWjmwYvfLMQi">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/PrimaryCurrent">
+        <rdfs:label>primary current</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PrimaryVoltage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/PrimaryVoltage">
+        <rdfs:label>primary voltage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/controlAsset -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/controlAsset">
+        <rdfs:label>control asset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/controllAsset -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/controllAsset">
+        <rdfs:label>controll asset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/controlledAsset -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/controlledAsset">
+        <rdfs:label>controlled asset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/createdAt -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/createdAt">
+        <rdfs:label>created at</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/dataProvider -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/dataProvider">
+        <rdfs:label>data provider</rdfs:label>
+        <rdfs:label>dataProvider</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/description -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/description">
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/floorsAboveGround -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/floorsAboveGround">
+        <rdfs:label>floors above ground</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/floorsBelowGround -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/floorsBelowGround">
+        <rdfs:label>floors below ground</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/hasEmail">
         <rdfs:label>has email</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCTMpBzwfC3ibffls4vUt06 -->
+    <!-- http://webprotege.stanford.edu/hasFloor -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCTMpBzwfC3ibffls4vUt06">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Accuracy</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/hasFloor"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hasMobileNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/hasMobileNumber">
+        <rdfs:label>has mobile number</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCTumu9TEZjcTzF7uvxEB6X -->
+    <!-- http://webprotege.stanford.edu/higherLimit -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCTumu9TEZjcTzF7uvxEB6X">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/higherLimit">
+        <rdfs:label>higher limit</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ipAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ipAddress">
+        <rdfs:label>ip address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/kp -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/kp">
+        <rdfs:label>kp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/listening -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/listening">
+        <rdfs:label>listening</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/location">
+        <rdfs:label>location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/loggingInterval -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/loggingInterval">
+        <rdfs:label>logging interval</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/logicalNode -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/logicalNode">
+        <rdfs:label>logical node</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/lowerLimit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/lowerLimit">
         <rdfs:label>lowerLimit</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCWsQXkOcAHxLLB1JRibpTd -->
+    <!-- http://webprotege.stanford.edu/modifiedAt -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCWsQXkOcAHxLLB1JRibpTd">
-        <rdfs:label>operationSequence</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/modifiedAt">
+        <rdfs:label>modified at</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCnxMGA7ioZShgqxi8IYdez -->
+    <!-- http://webprotege.stanford.edu/openingHours -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCnxMGA7ioZShgqxi8IYdez">
-        <rdfs:label>Logical Node</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/openingHours">
+        <rdfs:label>opening hours</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RCsyTeO4VQGVl11ERL7hQrH -->
+    <!-- http://webprotege.stanford.edu/operationSequence -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCsyTeO4VQGVl11ERL7hQrH">
-        <rdfs:label>Secondary Current</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/operationSequence">
+        <rdfs:label>operation sequence</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RD1ktocZXbRdizsc95Zb6hb -->
+    <!-- http://webprotege.stanford.edu/primaryVoltage -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RD1ktocZXbRdizsc95Zb6hb">
-        <rdfs:label>reverseAction</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/primaryVoltage">
+        <rdfs:label>primary voltage</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RDafdYghsCmPrJjKIXG0nuP -->
+    <!-- http://webprotege.stanford.edu/reactivePower -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDafdYghsCmPrJjKIXG0nuP">
-        <rdfs:label>setValue</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDwvpbGDvjUTopZ1lKVZwK4 -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDwvpbGDvjUTopZ1lKVZwK4">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/reactivePower">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Active Power</rdfs:label>
+        <rdfs:label>reactive power</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RDzHte7rXVSgkFwpYMfCOT5 -->
+    <!-- http://webprotege.stanford.edu/readableName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDzHte7rXVSgkFwpYMfCOT5">
-        <rdfs:label>floorsAboveGround</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/readableName">
+        <rdfs:label>readableName</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RKCxla7pj2Mt4Dtv4RzY5q -->
+    <!-- http://webprotege.stanford.edu/reverseAction -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RKCxla7pj2Mt4Dtv4RzY5q">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/reverseAction">
+        <rdfs:label>reverse action</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/sampleInterval -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/sampleInterval">
+        <rdfs:label>sample interval</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/sampleRate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/sampleRate">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Max Reactive Power</rdfs:label>
+        <rdfs:label>sample rate</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RLB9CYDaWlf0rsfcjiV1UY -->
+    <!-- http://webprotege.stanford.edu/secondaryCurrent -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RLB9CYDaWlf0rsfcjiV1UY">
-        <rdfs:label>Voltage level</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/secondaryCurrent">
+        <rdfs:label>secondary current</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RZ6zoGFOkcTQApOrEUU375 -->
+    <!-- http://webprotege.stanford.edu/secondaryVoltage -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RZ6zoGFOkcTQApOrEUU375">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>TimeStamp</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/secondaryVoltage">
+        <rdfs:label>secondary voltage</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/Reh2hHaLwD7kB47FpyBIIC -->
+    <!-- http://webprotege.stanford.edu/serialNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Reh2hHaLwD7kB47FpyBIIC">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label>Reactive Power</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/serialNumber">
+        <rdfs:label>serial number </rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RkTWR83G6eN9UoxmHGseqK -->
+    <!-- http://webprotege.stanford.edu/setValue -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RkTWR83G6eN9UoxmHGseqK">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/setValue">
+        <rdfs:label>set value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/source -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/source">
+        <rdfs:label>source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/supplierName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/supplierName">
+        <rdfs:label>supplier name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/supportedNetwork -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/supportedNetwork">
+        <rdfs:label>supported network</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/supportedProtocol -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/supportedProtocol">
+        <rdfs:label>supported protocol</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/tapPosition -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/tapPosition">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:label>tap Position</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RnDZCWKi1PmBcQlAUaQnxX -->
+    <!-- http://webprotege.stanford.edu/td -->
 
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RnDZCWKi1PmBcQlAUaQnxX">
-        <rdfs:label>kp</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/td">
+        <rdfs:label>td</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ti -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/ti">
+        <rdfs:label>ti</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/timeStamp -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/timeStamp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>time stamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/voltageLevel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/voltageLevel">
+        <rdfs:label>voltage level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/writable -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/writable">
+        <rdfs:label>writable</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -924,101 +1171,17 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R4TThu5olmO7P4xlm5s5zt -->
+    <!-- http://webprotege.stanford.edu/AC-DC -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R4TThu5olmO7P4xlm5s5zt">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Sensor"/>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/AC-DC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Convertor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#consistsOf"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#SensingFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8EFOfQ6VvfWs0fb7ETTCoC"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#accomplishes"/>
-                <owl:hasValue rdf:resource="https://w3id.org/saref#Comfort"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Air flow sensor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7AzP49RsBgChL2gjfuR87J -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7AzP49RsBgChL2gjfuR87J">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-        <rdfs:label>TimeStamp</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7RmVt0SGl9lECEozmKGzFR -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7RmVt0SGl9lECEozmKGzFR">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDE6cVxTumawuTFWQH5VCIt"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7ONCLvdLIVcybZHCk9rqnF"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9bxyqfBfStiSZ33jrghrZ7"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ifOw6ljRaDlXiQrPMARW7"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCTumu9TEZjcTzF7uvxEB6X"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1ktocZXbRdizsc95Zb6hb"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RnDZCWKi1PmBcQlAUaQnxX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>PID</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7ZX8WQXUGxp9vhiILPtj97 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZX8WQXUGxp9vhiILPtj97">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
@@ -1039,37 +1202,43 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7MbwqU5avXFhqTXWUDHMr2"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/PrimaryCurrent"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7gL1iXzViEvM39mhH7N5lG"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/PrimaryVoltage"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R92Py4iSAQmIMho8kmSSjGu"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/logicalNode"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC1uju7MusVWB3TEBgr8qmA"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/secondaryCurrent"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCnxMGA7ioZShgqxi8IYdez"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/secondaryVoltage"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCsyTeO4VQGVl11ERL7hQrH"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/supportedNetwork"/>
                 <owl:hasValue>String</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1078,180 +1247,10 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7dFhOXbtQS060HG10LYKMg -->
+    <!-- http://webprotege.stanford.edu/AirFlowSensor -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7dFhOXbtQS060HG10LYKMg">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT"/>
-        <rdfs:label>ElectronicTimeControl</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7wV2NrvqVp9Yo8dgX5OHYP -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wV2NrvqVp9Yo8dgX5OHYP">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI"/>
-        <rdfs:label>Compressor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8C4U2kKYLWac4OTSJQAuV2 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8C4U2kKYLWac4OTSJQAuV2">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT"/>
-        <rdfs:label>FlowMeter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8EFOfQ6VvfWs0fb7ETTCoC -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EFOfQ6VvfWs0fb7ETTCoC">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A property related to measurements of rates of flow, measured in m³/s. This may for instance be used to measure air flow in ventilation or water flow in district heating systems.</rdfs:comment>
-        <rdfs:label>Flow</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Flow Terminal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8Yxqfpz1aR7JplouuPITGh -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Yxqfpz1aR7JplouuPITGh">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWr6DhyJe5vHwsW6w65ef3"/>
-        <rdfs:label>Tank</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8fXDcAVFtOLwmLiVrAx3yp -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fXDcAVFtOLwmLiVrAx3yp">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTgXsR6c8kfZvUjUW5UTNt"/>
-        <rdfs:label>Filter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8jXutEVA4lcQc3DenWTjN0 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jXutEVA4lcQc3DenWTjN0">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Storage"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#controlsProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RChvSMcuYUWfGDDdDlN1X78"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Battery Storage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8kHaci0mWrV4uPbW4ZgXRs -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8kHaci0mWrV4uPbW4ZgXRs">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>Humidifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8vqbzoFPiPIiHWci7TKUGO -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8vqbzoFPiPIiHWci7TKUGO">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Meter"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9WFufxotu4KAAzKLx4qc2U"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#relatesToMeasurement"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9uDJxmZz4gajOLqdvo9Bu4"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCTMpBzwfC3ibffls4vUt06"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg"/>
-                <owl:hasValue>xsd:geolocation</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>PMU</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R93tPRZXPIU10Mv9bNwCJVF -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R93tPRZXPIU10Mv9bNwCJVF">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL"/>
-        <rdfs:label>CommunictionAppliance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9681INrrpTEwaZTt2Zlyp6 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9681INrrpTEwaZTt2Zlyp6">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A property related to measurements measured in volume. Volume is measured in m³.</rdfs:comment>
-        <rdfs:label>Volume</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9IgoverIUzHenFY28JLVQG -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9IgoverIUzHenFY28JLVQG">
+    <owl:Class rdf:about="http://webprotege.stanford.edu/AirFlowSensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Sensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1268,19 +1267,471 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBEGuaA52cHppTouAyrwvxg"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Flow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#accomplishes"/>
+                <owl:hasValue rdf:resource="https://w3id.org/saref#Comfort"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Air flow sensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/AirToAirHeatRecovery -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/AirToAirHeatRecovery">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>Air to air heat recovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Angle -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Angle">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Channel"/>
+        <rdfs:label>Angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/AudioVisualAppliance -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/AudioVisualAppliance">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminal"/>
+        <rdfs:label>Audio visual appliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/BatteryStorage -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/BatteryStorage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Storage"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#controlsProperty"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/StateOfCharge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Battery storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Boiler -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Boiler">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#LevelControlFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Boiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/BuildingRelated -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/BuildingRelated">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Device"/>
+        <rdfs:comment>A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space).</rdfs:comment>
+        <rdfs:label>Building related</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Burner -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Burner">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>Burner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/CO2Level -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/CO2Level">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>A property related to measurements of CO2 level in the air. Measured in ppm.</rdfs:comment>
+        <rdfs:label>CO2 level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/CT-VT -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/CT-VT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Convertor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/CurrentLevel"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/location"/>
+                <owl:hasValue>geolocation</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/voltageLevel"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CT-VT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Channel -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Channel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Chiller -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Chiller">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>Chiller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Coil -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Coil">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>Coil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/CommunictionAppliance -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/CommunictionAppliance">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminal"/>
+        <rdfs:label>Communiction appliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Compressor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Compressor">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowMovingDevice"/>
+        <rdfs:label>Compressor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ControlDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ControlDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/BuildingRelated"/>
+        <rdfs:label>Control device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Controller -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Controller">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ControlDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/connectedActuator"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Actuator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/connectedSensor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasChannel"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Channel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/locatedIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/relatedSensor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/controlAsset"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ipAddress"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/listening"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/setValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/source"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/writable"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/supplierName"/>
+                <owl:hasValue>https://schema.org/person</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Controller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Convertor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Convertor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#EnergyRelated"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#ActuatingFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/MaxActivePower"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/MaxReactivePower"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Convertor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Current -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Current">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>A property related to measurements measured in Ampere (A).</rdfs:comment>
+        <rdfs:label>Current</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/DC-DC -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/DC-DC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Convertor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#LevelControlFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/PrimaryCurrent"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/PrimaryVoltage"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/logicalNode"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/secondaryCurrent"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/secondaryVoltage"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasDescription"/>
+                <owl:hasValue>String</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>DC-DC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Damper -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Damper">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowController"/>
+        <rdfs:label>Damper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ElectricitySensor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ElectricitySensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Sensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#consistsOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#SensingFunction"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDgAH2IrVVCYgpHHQV6f0Zb"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Current"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Energy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Voltage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1300,35 +1751,647 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R9Lha7bBAbXWpAXs3LEXiBM -->
+    <!-- http://webprotege.stanford.edu/ElectronicFlowStorageDevice -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Lha7bBAbXWpAXs3LEXiBM">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT"/>
-        <rdfs:label>Damper</rdfs:label>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ElectronicFlowStorageDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowStorageDevice"/>
+        <rdfs:label>Electronic flow storage device</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI -->
+    <!-- http://webprotege.stanford.edu/ElectronicTimeControl -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdkl1t8AbjY4mSCQeIN2kq"/>
-        <rdfs:label>Control Device</rdfs:label>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ElectronicTimeControl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowController"/>
+        <rdfs:label>Electronic time control</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9Zy43nV4NbIka1mpm2Pf9N -->
+    <!-- http://webprotege.stanford.edu/EnergyConversionDevice -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Zy43nV4NbIka1mpm2Pf9N">
+    <owl:Class rdf:about="http://webprotege.stanford.edu/EnergyConversionDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Energy conversion device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Fan -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Fan">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowMovingDevice"/>
+        <rdfs:label>Fan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Filter -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Filter">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminalDevice"/>
+        <rdfs:label>Filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Floor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Floor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasRoom"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasZone"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inBuilding"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Floor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Flow -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Flow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>A property related to measurements of rates of flow, measured in m³/s. This may for instance be used to measure air flow in ventilation or water flow in district heating systems.</rdfs:comment>
+        <rdfs:label>Flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowController -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowController">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Flow controller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/BuildingRelated"/>
+        <rdfs:label>Flow device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowMeter -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowMeter">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowController"/>
+        <rdfs:label>Flow meter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowMovingDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowMovingDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Flow moving device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowStorageDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowStorageDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Flow storage device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowTerminal -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowTerminal">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Flow terminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/FlowTerminalDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/FlowTerminalDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowDevice"/>
+        <rdfs:label>Flow terminal device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Frequency -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Frequency">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Channel"/>
+        <rdfs:label>Frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/HP -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/HP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>HP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/HV-DC -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/HV-DC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Convertor"/>
+        <rdfs:label>HV-DC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Humidifier -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Humidifier">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>Humidifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Interceptor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Interceptor">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminalDevice"/>
+        <rdfs:label>Interceptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Lamp -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Lamp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminal"/>
+        <rdfs:label>Lamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Maqnititute -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Maqnititute">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Channel"/>
+        <rdfs:label>Maqnititute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PID -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/PID">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Controller"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/higherLimit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/kp"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/lowerLimit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/reverseAction"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/td"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ti"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>PID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PMU -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/PMU">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Meter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasChannel"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Channel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Accuracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/loggingInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/readableName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>xsd:geolocation</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>PMU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PV -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/PV">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#MicroRenewable"/>
+        <rdfs:label>PV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/PowerMeter -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/PowerMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Meter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/controlledProperty"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Power"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Accuracy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ActivePower"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/reactivePower"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/timeStamp"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>xsd:geolocation</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Power Meter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Pump -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Pump">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowMovingDevice"/>
+        <rdfs:label>Pump</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVK -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVK">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Actuator"/>
+        <rdfs:label>RVK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rocf -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rocf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Channel"/>
+        <rdfs:label>Rocf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Room -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Room">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasSensor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasTenant"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Tenant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasZone"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inBuilding"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inFloor"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Floor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A room in a building. This class may be used to group devices.</rdfs:comment>
+        <rdfs:label>Room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/SpaceHeater -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/SpaceHeater">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowTerminal"/>
+        <rdfs:label>Space heater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/StateOfCharge -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/StateOfCharge">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>A property related to measurements of the battery status of a device. Measured in %. 100 % means fully charged. 0 % no charge.</rdfs:comment>
+        <rdfs:label>State of Charge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/SwitchingDevice -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/SwitchingDevice">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowController"/>
+        <rdfs:label>Switching device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Tank -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Tank">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/FlowStorageDevice"/>
+        <rdfs:label>Tank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/TapPosition -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/TapPosition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:label>Tap Position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/TapPostion -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/TapPostion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#ActuatingFunction"/>
+        <rdfs:label>Tap postion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Tenant -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Tenant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/liveIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasEmail"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasMobileNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A class that describes information about a tenant in a building.</rdfs:comment>
+        <rdfs:label>Tenant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Timestamp -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Timestamp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Channel"/>
+        <rdfs:label>Timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Transformer -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Transformer">
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#EnergyRelated"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#controlsProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBrF1fTldAyrjWYssavQ5VQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/TapPosition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1345,7 +2408,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RLB9CYDaWlf0rsfcjiV1UY"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/voltageLevel"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1354,48 +2417,52 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R9wJqHrUV5pUhVzAcYtT0VV -->
+    <!-- http://webprotege.stanford.edu/TubeBundle -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wJqHrUV5pUhVzAcYtT0VV">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9cCDlfuefKP15nQEyJpDcP"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC7ySF27aPGkWjmwYvfLMQi"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasName"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>A class that describes information about a tenant in a building.</rdfs:comment>
-        <rdfs:label>Tenant</rdfs:label>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/TubeBundle">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/EnergyConversionDevice"/>
+        <rdfs:label>TubeBundle</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9x3pouY4L0SPgdOqzHoS5Q -->
+    <!-- http://webprotege.stanford.edu/Voltage -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9x3pouY4L0SPgdOqzHoS5Q">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTgXsR6c8kfZvUjUW5UTNt"/>
-        <rdfs:label>Interceptor</rdfs:label>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Voltage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>Voltage in Volts</rdfs:comment>
+        <rdfs:label>Voltage</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://webprotege.stanford.edu/R9ynrxCyB4neGbcBS0RsAxp -->
+    <!-- http://webprotege.stanford.edu/Volume -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ynrxCyB4neGbcBS0RsAxp">
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Volume">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
+        <rdfs:comment>A property related to measurements measured in volume. Volume is measured in m³.</rdfs:comment>
+        <rdfs:label>Volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/WPP -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/WPP">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#MicroRenewable"/>
+        <rdfs:label>WPP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/WaterFlowSensor -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/WaterFlowSensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Sensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1412,7 +2479,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8EFOfQ6VvfWs0fb7ETTCoC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Flow"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1426,642 +2493,37 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT -->
+    <!-- http://webprotege.stanford.edu/Zone -->
 
 
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Flow Controller</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB2YUUSy6fvmFIpoLSZRUAj -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2YUUSy6fvmFIpoLSZRUAj">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC"/>
-        <rdfs:label>HV-DC</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RB6s1uCXcK2VqWn0IGDvQxJ -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6s1uCXcK2VqWn0IGDvQxJ">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Meter"/>
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Zone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#BuildingRelated"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#controlsProperty"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Power"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/containOf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Zone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCTMpBzwfC3ibffls4vUt06"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDwvpbGDvjUTopZ1lKVZwK4"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RZ6zoGFOkcTQApOrEUU375"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Reh2hHaLwD7kB47FpyBIIC"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasDescription"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg"/>
-                <owl:hasValue>xsd:geolocation</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Power Meter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBCub6j3arGRcILfvAUxXOk -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCub6j3arGRcILfvAUxXOk">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBjUbnUXcVIn1RpQ8DS8m5Y"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9wJqHrUV5pUhVzAcYtT0VV"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RLObgBrWUGbtlQvTc4OsHG"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inBuilding"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpiVVTtwCMmjyKVqwFn32E"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>A room in a building. This class may be used to group devices.</rdfs:comment>
-        <rdfs:label>Room</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBEGuaA52cHppTouAyrwvxg -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEGuaA52cHppTouAyrwvxg">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>Voltage in Volts</rdfs:comment>
-        <rdfs:label>Voltage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBFqIdeyoI0Ru908k9aVlOE -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFqIdeyoI0Ru908k9aVlOE">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-        <rdfs:label>Rocf</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBPMEV5PUKsxchn187zbKdj -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPMEV5PUKsxchn187zbKdj">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>HP</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBQxJveApvTRBFosMsPMEwV -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQxJveApvTRBFosMsPMEwV">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#ActuatingFunction"/>
-        <rdfs:label>Tap Postion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBi2DSZTXz0RX6hBJpaymFa -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBi2DSZTXz0RX6hBJpaymFa">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI"/>
-        <rdfs:label>Fan</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBrF1fTldAyrjWYssavQ5VQ -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrF1fTldAyrjWYssavQ5VQ">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:label>Tap Position</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#EnergyRelated"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#ActuatingFunction"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inFloor"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Floor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB03ZKnWypB1bdhZKSud2oc"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inRoom"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Room"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RKCxla7pj2Mt4Dtv4RzY5q"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Convertor</rdfs:label>
+        <rdfs:label>Zone</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RC0mNOzlSTIhtOnF7jQPPUb -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0mNOzlSTIhtOnF7jQPPUb">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>Chiller</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RC86IYupDxnQStzTutZS6Wa -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RC86IYupDxnQStzTutZS6Wa">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A property related to measurements of CO2 level in the air. Measured in ppm.</rdfs:comment>
-        <rdfs:label>CO2 level</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCAbfsvxj9bVB6MiKHXZnHy -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCAbfsvxj9bVB6MiKHXZnHy">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>TubeBundle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCB8WT4RJgvKPmInfrvoHoG -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCB8WT4RJgvKPmInfrvoHoG">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-        <rdfs:label>Frequency</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCElJW45EOo4u4EiUWV0oLs -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCElJW45EOo4u4EiUWV0oLs">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-        <rdfs:label>Maqnititute</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCTgXsR6c8kfZvUjUW5UTNt -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTgXsR6c8kfZvUjUW5UTNt">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Flow Terminal Device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Channel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCWr6DhyJe5vHwsW6w65ef3 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWr6DhyJe5vHwsW6w65ef3">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Flow Storage Device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCdkl1t8AbjY4mSCQeIN2kq -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdkl1t8AbjY4mSCQeIN2kq">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Device"/>
-        <rdfs:comment>A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space).</rdfs:comment>
-        <rdfs:label>Building related</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCgYSBb2kwST5PilfSPdF2b -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgYSBb2kwST5PilfSPdF2b">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg"/>
-                <owl:hasValue>geolocation</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9TtTs8Kbux9eMtSGBoCHpn"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RLB9CYDaWlf0rsfcjiV1UY"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>CT-VT</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RChvSMcuYUWfGDDdDlN1X78 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RChvSMcuYUWfGDDdDlN1X78">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A property related to measurements of the battery status of a device. Measured in %. 100 % means fully charged. 0 % no charge.</rdfs:comment>
-        <rdfs:label>State of Charge</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCslnYTuhLdCeR3f2NsUZfh -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCslnYTuhLdCeR3f2NsUZfh">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>AirToAirHeat Recovery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Flow Moving Device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDE6cVxTumawuTFWQH5VCIt -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDE6cVxTumawuTFWQH5VCIt">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCeh3vKI5NGDzw3o39LD4Mi"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RddfRR1iAEUWOtY3vXRnmh"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Actuator"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDafdYghsCmPrJjKIXG0nuP"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Controller</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDNfhlsTSL1pkSnCkjr6B3s -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDNfhlsTSL1pkSnCkjr6B3s">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>Burner</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDYpanpTHLQLnjXDwLHcpCQ -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDYpanpTHLQLnjXDwLHcpCQ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCWr6DhyJe5vHwsW6w65ef3"/>
-        <rdfs:label>ElectronicFlowStorageDevice</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDgAH2IrVVCYgpHHQV6f0Zb -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgAH2IrVVCYgpHHQV6f0Zb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A property related to measurements measured in Ampere (A).</rdfs:comment>
-        <rdfs:label>Current</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDr4QPwW1aAnf2H9jnQY9bB -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDr4QPwW1aAnf2H9jnQY9bB">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCyTFptM6Ffpb2hWxkqHKwI"/>
-        <rdfs:label>Pump</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDrT9t6VmjmMXFINQ1yJMNJ -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrT9t6VmjmMXFINQ1yJMNJ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL"/>
-        <rdfs:label>AudioVisualAppliance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDz6CRhHqQLvwebz9G2W8eT -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDz6CRhHqQLvwebz9G2W8eT">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#MicroRenewable"/>
-        <rdfs:label>WPP</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RJi25GAQCidJlRgLlIEqK6 -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RJi25GAQCidJlRgLlIEqK6">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#MicroRenewable"/>
-        <rdfs:label>PV</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RKLytvXl3vvLXT6E5CxJ0a -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RKLytvXl3vvLXT6E5CxJ0a">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUXiAiW1f8PVPPnDTQ1hFg"/>
-        <rdfs:label>Angle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RLCNYMTcGC2itclf7a2gUm -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RLCNYMTcGC2itclf7a2gUm">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL"/>
-        <rdfs:label>Lamp</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RLWTEPVr8UF9rpTDIbYCvI -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RLWTEPVr8UF9rpTDIbYCvI">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:label>Coil</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RRbQ4pSzZcIq9icXuZpJeq -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RRbQ4pSzZcIq9icXuZpJeq">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Actuator"/>
-        <rdfs:label>RVK</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd"/>
-        <rdfs:label>Energy Conversion Device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RW4ILUq0GOY2cDjFWJzN5v -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RW4ILUq0GOY2cDjFWJzN5v">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSdvWyNbgQrUKaZeqC27QZ"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#LevelControlFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#State"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Boiler</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RYiN7LIy9SL6vbdRr4iTEq -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RYiN7LIy9SL6vbdRr4iTEq">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8S6TBfioEZADWNH5HvZcxL"/>
-        <rdfs:label>SpaceHeater</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Rbdab3Spwb8PlGkBwutw0i -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Rbdab3Spwb8PlGkBwutw0i">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwFHsGyJHwz5MnZx9gY3sC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#LevelControlFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#OnOffState"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7gL1iXzViEvM39mhH7N5lG"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R92Py4iSAQmIMho8kmSSjGu"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC1uju7MusVWB3TEBgr8qmA"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCnxMGA7ioZShgqxi8IYdez"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCsyTeO4VQGVl11ERL7hQrH"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasDescription"/>
-                <owl:hasValue>String</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>DC-DC</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RemnWOvTuSTwanC91L6ogd">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdkl1t8AbjY4mSCQeIN2kq"/>
-        <rdfs:label>Flow Device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RipK16q5JKeGXpfyolLehV -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RipK16q5JKeGXpfyolLehV">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9zZnEzh8zvn7is0mE0LthT"/>
-        <rdfs:label>SwitchingDevice</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.w3.org/2006/time#TemporalUnit -->
-
-
-    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
-        <rdfs:comment>The unit of measure for time</rdfs:comment>
-    </rdf:Description>
     
 
 
@@ -2080,11 +2542,77 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#Actuator">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ControlDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasChannel"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Channel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasSensor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/locatedIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#ActuatingFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/listening"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/readableName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/writable"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A device responsible for moving or controlling a mechanism or system by performing an actuating function</rdfs:comment>
@@ -2100,56 +2628,68 @@
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB8kVin94KMOdCqBXQfzoBq"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBCub6j3arGRcILfvAUxXOk"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasFloor"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Floor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7u37iRF1XNSqOBsn8Zhsjs"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasRoom"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasSensor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Sensor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasZone"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Owner"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8Q6atByV0G6D1JLt5Jupcw"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/dataProvider"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QPBXHMQKgoyvwW0Wgo27p"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/description"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8yGcsaqMooXtA1CAD21Jpg"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/floorsAboveGround"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9PDn4Aa84f1Umys0v1riwj"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/floorsBelowGround"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCWsQXkOcAHxLLB1JRibpTd"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/operationSequence"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDzHte7rXVSgkFwpYMfCOT5"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasDescription"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A category that includes devices as described by building related data models, such as IFC and FIEMSER </rdfs:comment>
@@ -2236,12 +2776,6 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#Commodity">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. </rdfs:comment>
         <rdfs:label>Commodity</rdfs:label>
     </owl:Class>
@@ -2252,9 +2786,9 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#Currency">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Measurement"/>
         <rdfs:comment>The unit of measure for price</rdfs:comment>
-        <rdfs:label>Currency</rdfs:label>
+        <rdfs:label>Currency unit</rdfs:label>
     </owl:Class>
     
 
@@ -2265,14 +2799,20 @@
     <owl:Class rdf:about="https://w3id.org/saref#Device">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCNjAo2i3RVhdHFLmNIdg7e"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/controlledProperty"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Property"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RLObgBrWUGbtlQvTc4OsHG"/>
-                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBCub6j3arGRcILfvAUxXOk"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/inRoom"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/locatedAt"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2289,8 +2829,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#controlsProperty"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Property"/>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#hasCommand"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Command"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2301,38 +2841,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasProfile"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Profile"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#hasState"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#State"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasTypicalConsumption"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Energy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isUsedFor"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Commodity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#makesMeasurement"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Property"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2367,19 +2889,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasTypicalConsumption"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://w3id.org/saref#Energy"/>
-                            <rdf:Description rdf:about="https://w3id.org/saref#Power"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isUsedFor"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/saref#Commodity"/>
             </owl:Restriction>
@@ -2404,20 +2913,68 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasDescription"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/controlledAsset"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/createdAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/description"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasManufacturer"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ipAddress"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#hasModel"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/modifiedAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/serialNumber"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/source"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/supportedProtocol"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Owner"/>
+                <owl:hasValue>https://schema.org/person</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/dataProvider"/>
+                <owl:hasValue>https://schema.org/provider</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/location"/>
+                <owl:hasValue>xsd:geo</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2484,17 +3041,6 @@
     
 
 
-    <!-- https://w3id.org/saref#Energy -->
-
-
-    <owl:Class rdf:about="https://w3id.org/saref#Energy">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Property"/>
-        <rdfs:comment>A saref:Property related to some measurements that are characterized by a certain value measured in an energy unit (such as Kilowatt_Hour or Watt_hour). Furter specializations of the saref:Energy class can be found in the SAREF4ENER extension, where classes such as EnergyMax, EnergyMin and EnergyExpected are defined. </rdfs:comment>
-        <rdfs:label>Energy</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/saref#EnergyMeter -->
 
 
@@ -2502,14 +3048,14 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Meter"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#consistsOf"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Meter"/>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#measuresProperty"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Energy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#consistsOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Meter"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2522,6 +3068,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#accomplishes"/>
                 <owl:hasValue rdf:resource="https://w3id.org/saref#MeterReading"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An energy meter is a device of category saref:Meter that consists of a meter, accomplishes the tasks saref:MeterReading and saref:EnergyEfficiency, performs the saref:MeteringFunction and is used for the purpose of measuring the saref:Energy property</rdfs:comment>
@@ -2545,7 +3097,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#EnergyUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Measurement"/>
         <rdfs:comment>The unit of measure for energy</rdfs:comment>
         <rdfs:label>Energy unit</rdfs:label>
     </owl:Class>
@@ -2681,17 +3233,6 @@
     
 
 
-    <!-- https://w3id.org/saref#IlluminanceUnit -->
-
-
-    <owl:Class rdf:about="https://w3id.org/saref#IlluminanceUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
-        <rdfs:comment>The unit of measure for light</rdfs:comment>
-        <rdfs:label>Illuminance unit</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/saref#LevelControlFunction -->
 
 
@@ -2810,21 +3351,8 @@
     <owl:Class rdf:about="https://w3id.org/saref#Measurement">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#relatesToProperty"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/saref#Property"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2860,8 +3388,62 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#EnergyRelated"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasChannel"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Channel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#MeteringFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/listening"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/loggingInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/writable"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A device built to accurately detect and display a quantity in a form readable by a human being. Further, a device of category saref:Meter that performs a saref:MeteringFunction.</rdfs:comment>
@@ -3157,7 +3739,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#PowerUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Measurement"/>
         <rdfs:comment>The unit of measure for power</rdfs:comment>
         <rdfs:label>Power unit</rdfs:label>
     </owl:Class>
@@ -3179,7 +3761,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#PressureUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Measurement"/>
         <rdfs:comment>The unit of measure for pressure</rdfs:comment>
         <rdfs:label>Pressure unit</rdfs:label>
     </owl:Class>
@@ -3299,11 +3881,77 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#Sensor">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Ss0nlABbeWn3nuA9NaaUI"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ControlDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/hasChannel"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Channel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/locatedIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#BuildingRelated"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/subCategory"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#hasFunction"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/saref#SensingFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/saref#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/listening"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/loggingInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/readableName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleInterval"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/sampleRate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/writable"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Address"/>
+                <owl:hasValue>Geo:json</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction.</rdfs:comment>
@@ -3676,7 +4324,7 @@
 
 
     <owl:Class rdf:about="https://w3id.org/saref#TemperatureUnit">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Measurement"/>
         <rdfs:comment>The unit of measure for temperature</rdfs:comment>
         <rdfs:label>Temperature unit</rdfs:label>
     </owl:Class>
@@ -3707,17 +4355,6 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/saref#Command"/>
         <rdfs:comment>A type of command</rdfs:comment>
         <rdfs:label>Toggle command</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/saref#UnitOfMeasure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/saref#UnitOfMeasure">
-        <rdfs:comment>The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called &quot;watt&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://www.wurvoc.org/vocabularies/om-1.6/Unit_of_measure"/>
-        <rdfs:label>Unit of measure</rdfs:label>
     </owl:Class>
     
 
@@ -3796,7 +4433,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/bar">
         <rdf:type rdf:resource="https://w3id.org/saref#PressureUnit"/>
         <rdfs:comment xml:lang="en">The bar is a unit of pressure defined as 100 000 pascal.</rdfs:comment>
-        <rdfs:label>bar</rdfs:label>
+        <rdfs:label>Bar</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3807,7 +4444,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius">
         <rdf:type rdf:resource="https://w3id.org/saref#TemperatureUnit"/>
         <rdfs:comment xml:lang="en">The degree Celsius is a unit of temperature defined as 1 kelvin.</rdfs:comment>
-        <rdfs:label>degree Celsius</rdfs:label>
+        <rdfs:label>Degree Celsius</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3818,7 +4455,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit">
         <rdf:type rdf:resource="https://w3id.org/saref#TemperatureUnit"/>
         <rdfs:comment xml:lang="en">The degree Fahrenheit is a unit of temperature defined as 5.555556e-1 kelvin.</rdfs:comment>
-        <rdfs:label>degree Fahrenheit</rdfs:label>
+        <rdfs:label>Degree Fahrenheit</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3828,7 +4465,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/euro">
         <rdf:type rdf:resource="https://w3id.org/saref#Currency"/>
-        <rdfs:label xml:lang="en">euro</rdfs:label>
+        <rdfs:label xml:lang="en">Euro</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3839,7 +4476,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/kelvin">
         <rdf:type rdf:resource="https://w3id.org/saref#TemperatureUnit"/>
         <rdfs:comment xml:lang="en">The kelvin is a unit of temperature defined as 1/273.16 of the thermodynamic temperature of the triple point of water.</rdfs:comment>
-        <rdfs:label>kelvin</rdfs:label>
+        <rdfs:label>Kelvin</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3849,7 +4486,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/kilowatt">
         <rdf:type rdf:resource="https://w3id.org/saref#PowerUnit"/>
-        <rdfs:label>kilowatt</rdfs:label>
+        <rdfs:label>Kilowatt</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3869,7 +4506,6 @@
 
 
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/lux">
-        <rdf:type rdf:resource="https://w3id.org/saref#IlluminanceUnit"/>
         <rdfs:comment xml:lang="en">The lux is a unit of illuminance defined as lumen divided by square metre = candela times steradian divided by square metre.</rdfs:comment>
         <rdfs:label>lux</rdfs:label>
     </owl:NamedIndividual>
@@ -3882,7 +4518,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/pascal">
         <rdf:type rdf:resource="https://w3id.org/saref#PressureUnit"/>
         <rdfs:comment xml:lang="en">The pascal is a unit of pressure and stress defined as newton divided by square metre = joule divided by cubic metre = kilogram divided by metre second squared.</rdfs:comment>
-        <rdfs:label>pascal</rdfs:label>
+        <rdfs:label>Pascal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3892,7 +4528,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling">
         <rdf:type rdf:resource="https://w3id.org/saref#Currency"/>
-        <rdfs:label>Great Britain pound sterling</rdfs:label>
+        <rdfs:label>Great Britain Pound Sterling</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3903,7 +4539,7 @@
     <owl:NamedIndividual rdf:about="http://www.wurvoc.org/vocabularies/om-1.8/watt">
         <rdf:type rdf:resource="https://w3id.org/saref#PowerUnit"/>
         <rdfs:comment xml:lang="en">The watt is a unit of power defined as joule divided by second = newton times metre divided by second = volt times ampere = kilogram times square metre divided by second to the power 3.</rdfs:comment>
-        <rdfs:label>watt</rdfs:label>
+        <rdfs:label>Watt</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3959,7 +4595,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#EnergyEfficiency">
         <rdf:type rdf:resource="https://w3id.org/saref#Task"/>
         <rdfs:comment>A type of task for which a device is designed</rdfs:comment>
-        <rdfs:label>EnergyEfficiency</rdfs:label>
+        <rdfs:label>Energy Efficiency</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3981,7 +4617,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#GetCurrentMeterValue">
         <rdf:type rdf:resource="https://w3id.org/saref#GetCurrentMeterValueCommand"/>
         <rdfs:comment>The command GET CURRENT METER VALUE. It is used to instantiate the GetCurrentMeterValueCommand class. </rdfs:comment>
-        <rdfs:label>Get current meter value</rdfs:label>
+        <rdfs:label>Get Current Meter Value</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3992,7 +4628,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#GetMeterData">
         <rdf:type rdf:resource="https://w3id.org/saref#GetMeterDataCommand"/>
         <rdfs:comment>The command GET METER DATA. It is used to instantiate the GetMeterDataCommand class. </rdfs:comment>
-        <rdfs:label>Get meter data</rdfs:label>
+        <rdfs:label>Get Meter Data</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4003,7 +4639,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#GetMeterHistory">
         <rdf:type rdf:resource="https://w3id.org/saref#GetMeterHistoryCommand"/>
         <rdfs:comment>The command GET METER HISTORY. It is used to instantiate the GetMeterHistoryCommand class. </rdfs:comment>
-        <rdfs:label>Get meter history</rdfs:label>
+        <rdfs:label>Get Meter History</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4014,7 +4650,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#GetSensingData">
         <rdf:type rdf:resource="https://w3id.org/saref#GetSensingDataCommand"/>
         <rdfs:comment>The command GET SENSING DATA. It is used to instantiate the GetSensingDataCommand class. </rdfs:comment>
-        <rdfs:label>Get sensing data</rdfs:label>
+        <rdfs:label>Get Sensing Data</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4217,12 +4853,34 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/saref#watt_hour">
         <rdf:type rdf:resource="https://w3id.org/saref#EnergyUnit"/>
         <rdfs:comment>The Watt Hor is a unit of energy equivalent to one watt (1 W) of power expended for one hour (1 h) of time. An energy expenditure of 1 Wh represents 3600 joules </rdfs:comment>
-        <rdfs:label>watt hour</rdfs:label>
+        <rdfs:label>Watt hour</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/Owner">
+        <rdfs:label>Owner</rdfs:label>
+        <rdfs:label>owner</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/hasFloor">
+        <rdfs:label>has floor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalUnit">
+        <rdfs:comment>The unit of measure for time</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
 
 
